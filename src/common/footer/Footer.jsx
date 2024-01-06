@@ -109,7 +109,7 @@ export default function Footer() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2024 Copyright:
+        © 2025 Copyright:
         <a className='text-reset fw-bold' href=''>
           MDBootstrap.com
         </a>
