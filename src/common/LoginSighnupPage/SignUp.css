@@ -1,0 +1,25 @@
+.signup-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .signup-container {
+      padding: 10px;
+    }
+  }

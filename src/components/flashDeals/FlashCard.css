@@ -1,0 +1,55 @@
+.main-cont-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    justify-self: center;
+    background-color: rgb(230, 226, 226);
+    border-color: rgb(4, 4, 141);
+    border-radius: 2rem;
+    height: auto;
+   
+    
+}
+.container-slider-manualy{
+    height: auto;
+    width:100%;
+    align-self: center;
+    justify-self: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.off-text{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.heart-icon{
+  font-size: 1.5rem;
+  color: rgb(196, 4, 4);
+}
+.number-manu{
+    font-size: 1.5rem;
+    color: rgb(67, 67, 252);
+    font-weight: bold;
+}
+.text-gold{
+    color: gold;
+    font-weight: normal;
+}
+.buynow-button{
+    padding: 0.5rem;
+    color: red;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.buynow-button:hover{
+    background-color: red;
+    color: white;
+}
+
