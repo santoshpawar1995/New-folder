@@ -9,6 +9,7 @@ import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
 import ContactUs from "./components/contact/ContactUs"
 import Signup from "./common/LoginSighnupPage/Signup"
+import CheckOut from "./components/Finalpage/CheckOut"
 
 
 function App() {
@@ -87,6 +88,9 @@ function App() {
           </Route>
           <Route path='/signup' exact>
             <Signup/>
+          </Route>
+          <Route path='/checkout' exact>
+            <CheckOut/>
           </Route>
           
         </Switch>
