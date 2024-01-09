@@ -63,14 +63,12 @@ function Signup() {
         createUserWithEmailAndPassword (database,email,password).then(data=>{
             console.log(data,"authData")
             alert('Register Successfully')
-            window.location.reload();
+            // window.location.reload();
         }).catch(err=>{
           alert(err.code)
         })
     }
-      const validateForm = () => {
-        return formData.username.length >= 3 && /^\S+@\S+\.\S+$/.test(formData.email) && formData.password.length >= 6;
-      };
+  
       
     return (
         <MDBContainer fluid className='d-flex justify-content-center'>

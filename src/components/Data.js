@@ -55,6 +55,13 @@ const Data = {
     },
     {
       id: 8,
+      discount: 18,
+      cover: "./images/flash/flash12.png",
+      name: "SWIFT TRANSFER REAL",
+      price: 2200,
+    },
+    {
+      id: 9,
       discount: 10,
       cover: "./images/flash/flash-7.png.png",
 
@@ -62,14 +69,14 @@ const Data = {
       price: 1800,
     },
     {
-      id: 9,
+      id: 10,
       discount: 10,
       cover: "./images/flash/flash14.png",
       name: "SS7 OTP BYPASS ONE YEAR KEY",
       price: 2800,
     },
     {
-      id: 10,
+      id: 11,
       discount: 20,
       cover: "./images/flash/flash14.png",
       name: "SS7 OTP BYPASS LIFE TIME KEY",
@@ -77,7 +84,7 @@ const Data = {
     },
 
     {
-      id: 11,
+      id: 12,
       discount: 40,
       cover: "./images/flash/flash10.png",
       name: "BANK FLASH",
